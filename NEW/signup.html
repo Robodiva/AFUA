@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="account-page">
+        <div class="left-info">
+            <div class="texts">
+                <a href="signup.html" target="_self">
+                    <div class="circle">PERSONAL INFORMATION</div>
+                </a>
+                <span class="personal"></span>
+                <a href="connect.html" target="_self" tar> <div class="circle">CONNECT BANK ACCOUNT</div></a>
+                <span class="personal"></span>
+                <a href="#top" target="_self">
+                    <div class="circle">SET FINANCIAL GOALS</div>
+                </a>
+                <span class="personal"></span>
+            </div>
+        </div>
+        <div class="form">
+            <form action="signup.php" method="post">
+                <h3>Personal Information</h3>
+                <p>Please enter your information and proceed to the next step so we can build your accounts.</p>
+                <div class="inputs">
+                    <div class="names">
+                        <div class="first-name">
+                            <fieldset>
+                                <legend>First Name:</legend>
+                                <input type="text" id="first_name" name="first_name" required placeholder="Wilson">
+                            </fieldset>
+                        </div>
+                        <div class="surname">
+                            <fieldset>
+                                <legend>Surname:</legend>
+                                <input type="text" id="surname" name="surname" placeholder="McCarthy">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="email">
+                        <fieldset>
+                            <legend>Email:</legend>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <div class="tel">
+                        <div>
+                            <fieldset>
+                                <legend>Phone Number:</legend>
+                                <input type="tel" id="phone_number" name="phone_number" placeholder="+233 599 326 029" required>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <fieldset>
+                                <legend>Ghana Card Number:</legend>
+                                <input type="text" id="ghana_card_number" name="ghana_card_number" placeholder="GHA-000000000-0">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div style="font-size: 0.78em;">BIRTH DATE</div><br>
+                    <div class="date">
+                        <fieldset>
+                            <legend>Date of Birth:</legend>
+                            <input type="date" id="date_of_birth" name="date_of_birth" required>
+                        </fieldset>
+                    </div>
+                    <br><br>
+                    <button type="submit" style="width: 110px; height: 35px; border-radius: 15px; border: none; background-color: brown; color: white;">SUBMIT</button>
+                    <div class="next">
+                        <button type="submit">NEXT</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
